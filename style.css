@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Style Script', cursive;
+    font-size: 62.5%;
+    background-color: #184e77;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-color: #dee2e6;
+    height: 50vh;
+    width: 55rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tertiary-header{
+    font-size: 2.8rem;
+    /* text-transform: uppercase; */
+}
+
+.btn{
+    border: none;
+    padding: 1rem 3rem;
+    background-color: #ba181b;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    border-radius: 100px;
+    box-shadow: 10px 5px 20px  rgb(71, 81, 90);
+    transition: all .5s ;
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(.9);
+}
+
+.jokes{
+    font-size: 2.5rem;
+    /* font-weight: 700; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
